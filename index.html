@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLBB Draft Pick Simulator</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MLBB Draft Pick Simulator</h1>
+        <form id="draftForm">
+            <label for="tournamentName">Tournament Name:</label>
+            <input type="text" id="tournamentName" required><br><br>
+
+            <label for="blueTeamName">Blue Team Name:</label>
+            <input type="text" id="blueTeamName" required><br><br>
+
+            <label for="redTeamName">Red Team Name:</label>
+            <input type="text" id="redTeamName" required><br><br>
+
+            <button type="button" id="startDraftButton">Start Draft</button>
+        </form>
+
+        <div id="heroPool" class="hidden"></div>
+        <div id="draftPhase" class="hidden"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
