@@ -27,7 +27,7 @@ body{
     padding-right: 0px;
 }
 
-.pb-champions-section {
+.pb-heroes-section {
     width: 100%;
     height: 25%;
     margin: 0px;
@@ -70,36 +70,3 @@ body{
     margin-top: 15%;
     padding-right: 0%;
     padding-left: 0%;
-    height: 60%;
-}
-
-.container-champion-pull {
-    display: block;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    margin: 0%;
-}
-
-.container-picks-1 {
-    display:block;
-    padding: 0%;
-    margin: 0%;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    height: 100%;
-    width: 50%;
-}
-
-.container-picks-2 {
-    display:block;
-    padding: 0%;
-    margin: 0%;
-    margin-left:0%;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    height: 100%;
-    width: 50%;
-}
