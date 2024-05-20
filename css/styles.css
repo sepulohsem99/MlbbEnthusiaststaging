@@ -1,10 +1,105 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
-.hidden {
-    display: none;
+body{
+    background-color: rgb(0, 0, 0);
+    padding-top: 3.3rem;
+    padding-bottom: 3.3rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.btn-dark {
+    border-color: white;
+    border-width: 1px;
+}
+
+.container-main {
+    width: 100%;
+    height: 100%;
+    margin-right:0px;
+    margin-left:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pb-champions-section {
+    width: 100%;
+    height: 25%;
+    margin: 0px;
+}
+
+.container-bans {
+    position:relative;
+    margin-bottom: 54px;
+}
+
+.button-ban {
+    position: relative;
+    pointer-events: none;
+    margin-top: 50px;
+}
+
+.container-bans-1, .container-bans-2{
+    display:flex;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0.5rem;
+    padding: 0%;
+    width: 30rem;
+    height: 10rem;
+    position: absolute;
+}
+
+.bans-text {
+    padding-right:39%;
+    padding-top:3%;
+    color: red;
+}
+
+.container-picks-and-pull {
+    display:block;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 15%;
+    padding-right: 0%;
+    padding-left: 0%;
+    height: 60%;
+}
+
+.container-champion-pull {
+    display: block;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0%;
+}
+
+.container-picks-1 {
+    display:block;
+    padding: 0%;
+    margin: 0%;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 100%;
+    width: 50%;
+}
+
+.container-picks-2 {
+    display:block;
+    padding: 0%;
+    margin: 0%;
+    margin-left:0%;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 100%;
+    width: 50%;
 }
