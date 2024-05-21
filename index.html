@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MLBB Draft Pick Simulator</title>
-<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLBB Draft Pick Simulator</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="container">
+    <div class="container" style="margin-top: 50px;">
         <h1>MLBB Draft Pick Simulator</h1>
         <form id="draftForm">
             <label for="tournamentName">Tournament Name:</label>
@@ -19,11 +21,15 @@
             <label for="redTeamName">Red Team Name:</label>
             <input type="text" id="redTeamName" required><br><br>
 
-            <button type="submit" id="startDraftButton">Start Draft</button>
+            <button type="button" id="startDraftButton">Start Draft</button>
         </form>
 
-        <div id="response" class="hidden"></div>
+        <div id="draftResults" class="hidden">
+            <!-- Draft results will be displayed here -->
+        </div>
     </div>
+
     <script src="js/script.js"></script>
 </body>
+
 </html>
