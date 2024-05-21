@@ -1,72 +1,52 @@
-html {
-    height: 100%;
+body {
+    background-image: url('https://www.pxfuel.com/en/desktop-wallpaper-fixbr');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
     width: 100%;
-    margin: 0;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-    padding-top: 3.3rem;
-    padding-bottom: 3.3rem;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.btn-dark {
-    border-color: white;
-    border-width: 1px;
+button[type="submit"]:hover {
+    background-color: #45a049;
 }
-
-.container-main {
-    width: 100%;
-    height: 100%;
-    margin-right:0px;
-    margin-left:0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.pb-heroes-section {
-    width: 100%;
-    height: 25%;
-    margin: 0px;
-}
-
-.container-bans {
-    position:relative;
-    margin-bottom: 54px;
-}
-
-.button-ban {
-    position: relative;
-    pointer-events: none;
-    margin-top: 50px;
-}
-
-.container-bans-1, .container-bans-2{
-    display:flex;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    margin: 0.5rem;
-    padding: 0%;
-    width: 30rem;
-    height: 10rem;
-    position: absolute;
-}
-
-.bans-text {
-    padding-right:39%;
-    padding-top:3%;
-    color: red;
-}
-
-.container-picks-and-pull {
-    display:block;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    margin-top: 15%;
-    padding-right: 0%;
-    padding-left: 0%;
